@@ -1,0 +1,71 @@
+.container{
+    max-width: 350px;
+    height: 100%;
+    padding: 12px 14px;
+    margin-top: 24px;
+    border-radius: 38px;
+    text-align: center;
+    box-shadow: -13px -13px 26px #dadada, 13px 13px 26px #fff, -12px -12px 24px #dadada inset, -12px -12px 24px #fff inset;
+}
+h1{
+    font-weight: bold;
+    padding: 14px;
+}
+span{
+    font-size: 24px;
+    font-weight: bold;
+}
+i.fa-heart{
+    font-size: 2rem;
+    padding: 6px 12px;
+}
+div.form-control{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 12px;
+    border: none;
+}
+.form-control i{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 24px 0 0 24px;
+  }
+  input{
+    padding: 6px 12px;
+    display: inline-block;
+    border:none;
+    outline: none;
+    border-radius: 0 24px 24px 0;
+  }
+  #loveScore, #text{
+    font-weight: bold;
+  }
+  #loveScore{
+    color: red;
+  }
+  #text{
+   font-size: 14px;
+  }
+  button{
+    width: 80%;
+    color: white;
+    border:none ;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    border-radius: 24px !important;
+    cursor: pointer;
+  }
+p.attribution{
+    font-size: 14px ;
+    font-weight: bold;
+}
+  p .fa-heart{
+    color: red;
+    font-size: 16px !important;
+    padding:auto !important ;
+  }
+  
